@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="Andrew-Laptop" name="com.bss.calc.CalcAPIJUTest" skipped="0" tests="5" time="0.086" timestamp="2014-07-16T02:36:27">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\dist" />
+    <property name="lib" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\lib" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_05\jre\classes" />
+    <property name="TODAY" value="July 15 2014" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.4\bin\.." />
+    <property name="java.runtime.version" value="1.8.0_05-b13" />
+    <property name="ant.file.SampleJUnitTests" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\build.xml" />
+    <property name="user.name" value="Andrew" />
+    <property name="reports" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\reports" />
+    <property name="user.language" value="en" />
+    <property name="build" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\bin" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin" />
+    <property name="ant.project.default-target" value="reports" />
+    <property name="ant.project.name" value="SampleJUnitTests" />
+    <property name="DSTAMP" value="20140715" />
+    <property name="java.version" value="1.8.0_05" />
+    <property name="user.timezone" value="America/Los_Angeles" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\src" />
+    <property name="ant.file.type.SampleJUnitTests" value="file" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="res" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\res" />
+    <property name="project_name" value="junitSamples" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.5-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Andrew" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec MyWinLocker\x64;C:\Program Files (x86)\EgisTec MyWinLocker\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.6\;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\apache-ant-1.9.4\bin;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.bss.calc.CalcAPIJUTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Andrew\workspace\personal\CalcJUnitPractice\reports\raw\TEST-com.bss.calc.CalcAPIJUTest.xml crashfile=C:\Users\Andrew\workspace\personal\CalcJUnitPractice\junitvmwatcher5491797837068548570.properties propsfile=C:\Users\Andrew\workspace\personal\CalcJUnitPractice\junit338711994697462550.properties" />
+    <property name="java.class.path" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice\bin;C:\Users\Andrew\workspace\personal\CalcJUnitPractice\lib\hamcrest-core-1.3.jar;C:\Users\Andrew\workspace\personal\CalcJUnitPractice\lib\junit-4.11.jar;C:\apache-ant-1.9.4\lib\ant-launcher.jar;C:\apache-ant-1.9.4\lib\ant.jar;C:\apache-ant-1.9.4\lib\ant-junit.jar;C:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="jar_name" value="junitSamples.jar" />
+    <property name="TSTAMP" value="1936" />
+    <property name="war_name" value="junitSamples.war" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\Andrew\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Andrew\workspace\personal\CalcJUnitPractice" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="reports" />
+  </properties>
+  <testcase classname="com.bss.calc.CalcAPIJUTest" name="testAddNN" time="0.001" />
+  <testcase classname="com.bss.calc.CalcAPIJUTest" name="testAddN" time="0.0" />
+  <testcase classname="com.bss.calc.CalcAPIJUTest" name="testAddP" time="0.005">
+    <failure message="expected:&lt;10&gt; but was:&lt;111110&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;10&gt; but was:&lt;111110&gt;
+	at com.bss.calc.CalcAPIJUTest.testAddP(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.bss.calc.CalcAPIJUTest" name="testDivZeroNew" time="0.0" />
+  <testcase classname="com.bss.calc.CalcAPIJUTest" name="testDivZero" time="0.0" />
+  <system-out><![CDATA[Pass
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

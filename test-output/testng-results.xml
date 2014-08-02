@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67" started-at="2014-07-16T01:40:25Z" finished-at="2014-07-16T01:40:26Z">
+    <groups>
+      <group name="comp">
+        <method signature="CalcAPITestNGtest.testAddN()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddN" class="com.bss.calc.CalcAPITestNGtest"/>
+      </group> <!-- comp -->
+      <group name="reg">
+        <method signature="CalcAPITestNGtest.testAddN()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddN" class="com.bss.calc.CalcAPITestNGtest"/>
+        <method signature="CalcAPITestNGtest.testAddP()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddP" class="com.bss.calc.CalcAPITestNGtest"/>
+      </group> <!-- reg -->
+      <group name="sanity">
+        <method signature="CalcAPITestNGtest.testAddPN()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddPN" class="com.bss.calc.CalcAPITestNGtest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="67" started-at="2014-07-16T01:40:25Z" finished-at="2014-07-16T01:40:26Z">
+      <class name="com.bss.calc.CalcAPITestNGtest">
+        <test-method status="PASS" signature="testAddN()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddN" duration-ms="35" started-at="2014-07-15T18:40:25Z" finished-at="2014-07-15T18:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddN -->
+        <test-method status="PASS" signature="testAddP()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddP" duration-ms="1" started-at="2014-07-15T18:40:26Z" finished-at="2014-07-15T18:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddP -->
+        <test-method status="PASS" signature="testAddPN()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testAddPN" duration-ms="1" started-at="2014-07-15T18:40:26Z" finished-at="2014-07-15T18:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPN -->
+        <test-method status="PASS" signature="testMult()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testMult" duration-ms="1" started-at="2014-07-15T18:40:26Z" finished-at="2014-07-15T18:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testSub()[pri:0, instance:com.bss.calc.CalcAPITestNGtest@46f5f779]" name="testSub" duration-ms="1" started-at="2014-07-15T18:40:26Z" finished-at="2014-07-15T18:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+      </class> <!-- com.bss.calc.CalcAPITestNGtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
